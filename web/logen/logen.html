@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKS Shop - Log In</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="logencss.css">
+</head>
+<body>
+    
+    <!-- =========================
+         LOGIN BOX
+    ========================== -->
+    <div class="loginbox">
+        <div class="login-header">
+            <!-- I noticed you used an icon named 'tweter.png' here initially. Usually a profile icon is better for login pages.
+                 I updated to prof.png from your main folder if needed, however, if you want tweter.png, it will still load 
+                 from the icon folder if it is in the logen folder -->
+            <img src="../icon/prof.png" class="login" alt="User Avatar">
+        </div>
+        
+        <h2>Welcome Back</h2>
+        
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+            
+            <input type="submit" value="Sign In" class="btn-submit">
+            
+            <div class="form-footer">
+                <a href="forgot-password.html">Forgot Password?</a>
+                <span class="divider">|</span>
+                <a href="create-account.html">Create Account</a>
+            </div>
+        </form>
+        
+        <!-- Quick back link -->
+         <div class="back-home">
+             <a href="../lks html.html">← Back to Home</a>
+         </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LKS Shop</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="lks css.css">
+
+  <!-- Icon -->
+  <link rel="icon" href="icon/LKS.png">
+
+  <!-- Scripts -->
+  <script src="java.js" defer></script>
+</head>
+
+<body>
+
+  <!-- =========================
+         NAVIGATION BAR
+    ========================== -->
+  <div class="navbar">
+    <div class="lks">
+      <a href="lks html.html">
+        <img src="icon/lks2.png" alt="Logo">
+      </a>
+      <ul>
+        <li><a href="lks html.html">HOME</a></li>
+        <li><a href="woman/html.html">WOMEN</a></li>
+        <li><a href="men/html.html">MEN</a></li>
+        <li><a href="kids/html.html">KIDS</a></li>
+        <li><a href="shoes/html.html">SHOES</a></li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <input type="text" placeholder="Search...">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="prof">
+      <a href="logen/logen.html">
+        <img src="icon/prof.png" alt="Profile">
+      </a>
+    </div>
+
+    <div class="shop">
+      <a href="cart.html">
+        <img src="icon/pasket.png" alt="Cart">
+      </a>
+    </div>
+  </div>
+
+  <!-- =========================
+         PROMOTIONAL BANNER
+    ========================== -->
+  <div class="un-navbar">
+    <h2>THE LONGEST NIGHT SURPRISE</h2>
+    <h4>LIMITED TIME!</h4>
+    <h3>Get an additional 12% discount on men's sweaters in addition to the current 21% discount</h3>
+    <div class="shop-now">
+      <a href="men/html.html">SHOP NOW</a>
+    </div>
+  </div>
+
+  <!-- =========================
+         MAIN CONTENT AREA
+    ========================== -->
+  <div class="center">
+
+    <!-- Slideshow Container -->
+    <div class="slideshow-container">
+
+      <!-- Slide 1: Kids -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <a href="kids/html.html">
+          <img src="photo/1.jpg" style="width:100%" alt="Kids Collection">
+        </a>
+        <div class="text">Kids Collection</div>
+      </div>
+
+      <!-- Slide 2: Men -->
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <a href="men/html.html">
+          <img src="photo/2.jpg" style="width:100%" alt="Men's Collection">
+        </a>
+        <div class="text">Men's Collection</div>
+      </div>
+
+      <!-- Slide 3: Women -->
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <a href="woman/html.html">
+          <img src="photo/5.jpg" style="width:100%" alt="Women's Collection">
+        </a>
+        <div class="text">Women's Collection</div>
+      </div>
+
+      <!-- Next and Previous Buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Video Section -->
+    <div class="ved">
+      <video controls src="kkk.mp4"></video>
+    </div>
+
+    <!-- Categories Links -->
+    <div class="kid">
+      <a href="kids/html.html">
+        <img src="photo/keds2.webp" alt="Kids Shop">
+      </a>
+    </div>
+    <div class="wom">
+      <a href="woman/html.html">
+        <img src="photo/weman2.webp" alt="Women Shop">
+      </a>
+    </div>
+    <div class="men">
+      <a href="men/html.html">
+        <img src="photo/men2.webp" alt="Men Shop">
+      </a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
